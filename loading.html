@@ -1,0 +1,12 @@
+<html>
+  <script>
+    fetch('./ascii.txt')
+        .then(response => response.text())
+        .then(data => {
+            console.log(data);
+            // Optional: display it on the page
+            // document.body.innerHTML += `<pre>${data}</pre>`;
+        });
+  </script>
+  
+</html>
